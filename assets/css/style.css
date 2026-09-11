@@ -35,6 +35,8 @@ body{
   color:var(--ink);
   background:var(--cream);
   -webkit-font-smoothing:antialiased;
+  font-variant-numeric:lining-nums;
+  font-feature-settings:"lnum" 1;
 }
 img{max-width:100%;display:block;}
 .container{max-width:960px;margin:0 auto;padding:0 20px;}
@@ -161,7 +163,7 @@ a{color:inherit;}
   background-color:var(--rose-100);
   background-image:
     linear-gradient(180deg, rgba(74,22,32,.5), rgba(74,22,32,.15) 45%, var(--cream) 94%),
-    url('../img/hero-couple.jpg');
+    url('../img/couple-1.jpg');
   background-position:center top, center top;
   background-size:cover, contain;
   background-repeat:no-repeat, no-repeat;
